@@ -1,0 +1,209 @@
+
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  
+  
+}
+
+p{
+	color: #b8c1ec;
+}
+h1,h2{
+	color: #fffffe;
+	margin-bottom:10px;
+
+}
+
+
+nav {
+ 	 padding: 25px;
+ 	 margin: 0px;
+ 	 top:0;
+ 	 height:80px;
+ 	 position: sticky;
+ 	 text-align : center;
+ 	 list-style: none;
+ 	 background-color: #eebbc3;
+ 	 
+}
+
+
+body{
+	background-color: #d4d8f0
+}
+
+nav li{
+	display: inline;
+	height:40px;
+	margin: 15px;
+	padding: 10px;
+	font-size: 20px;
+	text-align: center;
+	
+}
+
+nav img{
+	margin-left: 10px;
+	left:10px;
+	bottom:10px;
+}
+
+header{
+	display: inline;
+}
+
+#pp{
+	position:absolute;
+	margin-left: 5px;
+	margin-top:5px;
+    left: 0%;
+    width:75px;
+    
+}
+#kota{
+	width:500px;
+	height:400px;
+	box-shadow: 5px 5px 10px lightblue;
+	margin: 20px;
+	border: 2px solid black;
+    border-radius: 10px;
+	margin-left: auto;
+  	margin-right: auto;
+  	background-color: #232946;
+}
+
+#kota img{
+	width: 100px;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	
+  	
+}
+
+#kota p{
+	text-align: center;
+  	padding: 10px;
+}
+#kota h2{
+	text-align: center;
+  	padding: 10px;
+  	color: #fffffe;
+}
+
+#makanan {
+	padding: 10px;
+
+}
+
+#makanan img{
+	width:400px;
+}
+
+#makanan .card{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+   padding: 20px;
+   margin-bottom: 20px;
+   
+   background-color: #232946;
+
+}
+
+
+
+#wisata{
+	 display: flex;
+	 flex-direction: row;
+	 margin-bottom:20px;
+	 /*width: 1000px;
+	 height: 650px;
+	padding: 20px;*/
+	border-radius: 10px;
+	
+ 
+
+}
+
+#wisata .item{
+	flex-grow: 1;
+
+           /* properti lainnya */
+     
+           background-color: #FBDD1C;
+           margin: 10px;
+           border: 2px solid black;
+           border-radius: 10px;
+           text-align: center;
+           margin-top: 60px;
+           background-color: #232946;
+}
+#wisata img{
+	width:300px;
+	height:250px;
+
+	margin-top: 10px; 
+	margin-bottom:10px; 
+}
+
+#wisata > * {
+	flex-basis: 100%;
+}
+
+
+aside{
+
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #232946;
+
+}
+
+aside img{
+	vertical-align: middle;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+footer{
+	background-color: #2f5167;
+  color: #fff;
+  height: 150px;
+  margin-top: 20px;
+  
+}
+
+footer img{
+	float: left;
+	bottom: 30px;
+	left: 30px;
+	width: 100px;
+	margin-left: 10px;
+	margin-top:20px;
+}
+
+footer p {
+	font-size: 20px;
+}
+
+
+#sosmed{
+	text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  #wisata {
+  	display:flex;
+    flex-direction: column;
+  }
+}
+
+
